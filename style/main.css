@@ -1,0 +1,103 @@
+.wrapper {
+  	width: 800px;
+   	margin-left: auto;
+   	margin-right: auto;
+   	display: block;
+   	text-align: center;
+   }
+.center {
+   	margin-left: auto;
+   	margin-right: auto;
+   	width: 100%;
+   }
+.base-font-settings {
+	font-family: serif;
+	color: #2a2a2a;
+   }
+a img {
+	 border: none;
+}
+.title-font {
+	.base-font-settings;
+	font-size: 18pt;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+.info-font {
+	font-family: 'Roboto Slab', serif;
+	font-size: 13pt;
+}
+.level {
+	font-family: 'Roboto Slab', serif;
+	font-size: 15pt;
+	height: 80px;
+}
+.name {
+	font-family: fantasy;
+	font-size: 28pt;
+}
+.name-positions {
+	font-family: fantasy;
+	font-size: 17pt;
+}
+.ord {position: relative;margin: 3px;top: 4px;}
+.title-table td {
+	vertical-align: top;
+}
+.underlined {
+	border-bottom: 1px dashed;
+	margin:10px;
+	cursor: pointer;
+}
+.underlined:hover {
+	color: green;
+}
+.level-element {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+.strong {
+	.tech-font;
+	color: #006633;
+}
+.good {
+	.tech-font;
+	color: #999933;
+}
+.google {
+	.tech-font;
+	color: #9999CC;
+}
+.coffee {
+	.tech-font;
+	color: #FF0000;
+}
+
+.tech-font {
+	font-size: 15pt;
+}
+
+.tech {
+	padding: 5px 10px;
+	cursor: pointer;
+	margin: 5px;
+}
+.info-container {
+	margin-top: 30px;
+    width: 80%;
+    margin-left: 94px;
+}
+.about {
+    margin-right: 50px;
+    text-align: left;
+}
+.info-block {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.employer {
+    float: left;
+    vertical-align: top;
+    margin-right: 15px;
+}
